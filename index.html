@@ -1,0 +1,468 @@
+<!-- =========================================================
+NISA INTERIOR DESIGN
+Luxury Interior Designer Portfolio
+HTML + CSS + JavaScript
+========================================================= -->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Nisa Interior Design</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  
+
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+
+  <nav>
+
+    <div class="container nav-container">
+
+      <div class="logo">
+        Nisa <span>Interior Design</span>
+      </div>
+
+      <ul class="nav-links">
+
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">من أنا</a></li>
+        <li><a href="#projects">الأعمال</a></li>
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="#contact">تواصل</a></li>
+
+      </ul>
+
+    </div>
+
+    <div class="menu-toggle">
+       <i class="fa-solid fa-bars"></i>
+    </div>
+
+  </nav>
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="hero" id="home">
+
+    <div class="container hero-content">
+
+      <h1>
+        نصنع من المساحات قصصاً تُروى..<br>
+        تصميم داخلي يلامس تفاصيل حياتك
+      </h1>
+
+      <p>
+        تصميم داخلي عصري يجمع بين البساطة والفخامة،
+        لنبتكر مساحات تعكس ذوقك وتمنحك شعوراً بالراحة والجمال.
+      </p>
+
+      <a href="#projects" class="btn">
+        شاهد أعمالنا
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       ABOUT
+  ========================== -->
+
+  <section id="about">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <h2>نبذة عني</h2>
+
+        <p>
+          شغف بالتصميم الداخلي الحديث والبسيط
+        </p>
+
+      </div>
+
+      <div class="about-wrapper">
+
+        <div class="about-image">
+
+          <div class="placeholder">
+            Personal Photo
+          </div>
+
+        </div>
+
+        <div class="about-text">
+
+          <h3>
+            Nisa Interior Design
+          </h3>
+
+          <p>
+            أنا مصممة ديكور داخلي وتأثيث، أؤمن بأن المساحات ليست مجرد جدران،
+            بل هي قصص تُروى وتفاصيل تُعاش.
+          </p>
+
+          <p>
+            يرتكز أسلوبي على البساطة الحديثة (Modern Minimalist)،
+            حيث أدمج بين جمالية الخطوط النظيفة، وعملية التصميم،
+            واستغلال الإضاءة الطبيعية وخامات البيئة لابتكار
+            مساحات مريحة، فاخرة، وتلبي تطلعات عملائي بدقة.
+          </p>
+
+          <div class="skills">
+
+            <span>Modern Minimalist</span>
+            <span>2D Planning</span>
+            <span>3D Design</span>
+            <span>Furniture Styling</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       PROJECTS
+  ========================== -->
+
+  <section id="projects">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <h2>معرض الأعمال</h2>
+
+        <p>
+          مجموعة مختارة من المشاريع والتصاميم الحديثة
+        </p>
+
+      </div>
+
+      <div class="filter-buttons">
+
+        <button class="filter-btn active" data-filter="all">
+          الكل
+        </button>
+
+        <button class="filter-btn" data-filter="residential">
+          تصميم سكني
+        </button>
+
+        <button class="filter-btn" data-filter="commercial">
+          تصميم تجاري
+        </button>
+
+        <button class="filter-btn" data-filter="furniture">
+          تصميم أثاث
+        </button>
+
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+
+        <div class="project-card residential">
+
+          <div class="project-image">
+
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>
+              فيلا واحة الهدوء
+            </h3>
+
+            <p>
+              إعادة تصميم صالة المعيشة والمجالس بأسلوب المينيماليزم،
+              مع التركيز على درجات البيج والأخشاب الطبيعية
+              لخلق جو دافئ ومريح.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card commercial">
+
+          <div class="project-image">
+
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1200&auto=format&fit=crop">
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>
+              مقهى لوميير
+            </h3>
+
+            <p>
+              تصميم داخلي لمقهى عصري يعتمد على الإضاءة المبتكرة،
+              والإسمنت المصقول ولمسات المعدن الأسود الفاخر.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- PROJECT 3 -->
+
+        <div class="project-card furniture">
+
+          <div class="project-image">
+
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRRkgiDtCC_f35J7AGXNkrAXZPY4iSV5VITv-Y-YZ0RW9wE_vuocb7_P9wIRk-EUAiW-HaY2LY0wPp6Xg3EzH0u8SsNc74DbisMFLiYCCw&usqp=CAc">
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>
+             ترابيزة عصرية
+            </h3>
+
+            <p>
+             تربيزة قهوة خشب مع تخزين – طاولة قهوة عصرية للريسبشن والصالون – بني وأبيض – ترابيزة صالون مودرن
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       SERVICES
+  ========================== -->
+
+  <section id="services">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <h2>الخدمات</h2>
+
+        <p>
+          حلول تصميم داخلية متكاملة
+        </p>
+
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+
+          <i class="fa-solid fa-ruler-combined"></i>
+
+          <h3>
+            مخططات 2D
+          </h3>
+
+          <p>
+            تصميم مخططات دقيقة وعملية لتنظيم المساحات
+            الداخلية بطريقة احترافية.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <i class="fa-solid fa-cube"></i>
+
+          <h3>
+            تصميم 3D
+          </h3>
+
+          <p>
+            تحويل الأفكار إلى نماذج ثلاثية الأبعاد واقعية
+            توضح أدق تفاصيل المشروع.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <i class="fa-solid fa-lightbulb"></i>
+
+          <h3>
+            الإشراف واختيار الخامات
+          </h3>
+
+          <p>
+            متابعة التنفيذ واختيار الخامات والإضاءة
+            والأثاث بما يحقق أفضل نتيجة بصرية.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       CONTACT
+  ========================== -->
+
+  <section id="contact">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <h2>
+          اتصل بنا
+        </h2>
+
+        <p>
+          يسعدنا التواصل معك لبدء مشروعك القادم
+        </p>
+
+      </div>
+
+      <div class="contact-wrapper">
+
+        <!-- FORM -->
+
+        <form id="contactForm">
+
+          <input type="text" placeholder="الاسم" required>
+
+          <input type="email" placeholder="البريد الإلكتروني" required>
+
+          <input type="text" placeholder="نوع المشروع المطلوب" required>
+
+          <textarea placeholder="اكتب رسالتك هنا..." required></textarea>
+
+          <button type="submit" class="btn">
+            إرسال الرسالة
+          </button>
+
+        </form>
+
+        <!-- TEXT -->
+
+        <div class="contact-text">
+
+          <h3>
+            لنصنع مساحة تحكي قصتك
+          </h3>
+
+          <p>
+            يمكنك التواصل معنا عبر النموذج أو من خلال
+            حسابات التواصل الاجتماعي الاحترافية الخاصة بنا.
+          </p>
+
+          <div class="socials">
+
+            <a href="https://linkedin.com/in/nisa-interior" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://instagram.com/nisa.design" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://behance.net/nisa-interior" target="_blank">
+              <i class="fab fa-behance"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    © 2026 Nisa Interior Design — All Rights Reserved
+
+  </footer>
+
+  <!-- =========================
+       SUCCESS MODAL
+  ========================== -->
+
+  <div class="modal" id="successModal">
+
+    <div class="modal-box">
+
+      <i class="fa-solid fa-circle-check"></i>
+
+      <h3>
+        تم بنجاح
+      </h3>
+
+      <p>
+        تم استلام رسالتك بنجاح،
+        وسيتم التواصل معك قريباً.
+      </p>
+
+      <button class="btn" id="closeModal">
+        إغلاق
+      </button>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="script.js">
+
+  </script>
+
+</body>
+
+</html>
